@@ -6,6 +6,7 @@ import TimeSeriesAnalysis from './pages/TimeSeriesAnalysis';
 import GeospatialAnalysis from './pages/GeospatialAnalysis';
 import RouteAnalysis from './pages/RouteAnalysis';
 import WeatherAnalysis from './pages/WeatherAnalysis';
+import Settings from './pages/Settings';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
       { path: 'geospatial', element: <GeospatialAnalysis /> },
       { path: 'routes', element: <RouteAnalysis /> },
       { path: 'weather', element: <WeatherAnalysis /> },
+      { path: 'settings', element: <Settings /> },
     ],
   },
 ]);
